@@ -1,0 +1,1 @@
+require 'turnip-kanban/rspec'
