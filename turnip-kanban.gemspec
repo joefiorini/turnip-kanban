@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Turnip::Kanban::VERSION
   gem.authors       = ["Joe Fiorini"]
   gem.email         = ["joe@joefiorini.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Adds "wip" and "backlog" tags to rspec allowing you to commit scenarios without having to worry about them running.}
+  gem.summary       = %q{A kanban workflow for Turnip.}
+  gem.homepage      = "http://github.com/joefiorini/turnip-kanban"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
